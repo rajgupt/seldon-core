@@ -8,8 +8,7 @@ spec:
     seldon.io/executor: "true"
   name: iris
   predictors:
-  - componentSpecs:
-    graph:
+  - graph:
       children: []
       implementation: SKLEARN_SERVER
       modelUri: s3://iris
